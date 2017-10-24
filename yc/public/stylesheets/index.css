@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.warp{
+    width: 100%;
+    height: auto;
+}
+nav{
+    width: 100%;
+    height: 36px;
+    line-height: 36px;
+    color: #555;
+    border-bottom:1px solid #ebebeb;
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    float: left;
+    margin-left: 19px;
+    font-weight: bold;
+    font-size: 13px;
+    text-decoration: underline;
+}
+nav ul li:hover{
+    cursor: pointer;
+}
+nav ul li:nth-last-child(1){
+    border-bottom: 1px solid #398bfb;
+    background: #398bfb;
+    color: white;
+    padding: 0 10px;
+    font-weight: normal;
+    text-decoration: none
+}
+nav ul li:nth-last-child(2){
+    font-weight: normal
+}
+nav ul li:nth-last-child(3){
+    font-weight: normal
+}
+.baidu{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.baidu img{
+    width: 270px;
+    height: 129px;
+}
+.search{
+    width: 641px;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.s_left{
+    width: 540px;
+    height: 40px;
+    padding: 7px 0;
+    box-sizing: border-box;
+    overflow: hidden;
+    background: url('/images/bjxj.jpg') no-repeat 500px 10px;
+    border: 1px solid #999;
+    float: left;
+}
+/* .search img{
+    position: absolute;
+    right: 120px;
+    top: 10px;
+} */
+.s_right{
+    width: 99px;
+    height: 38px;
+    border: 1px solid #38f;
+    background: #38f;
+    float: left;
+    text-align: center;
+    line-height: 38px;
+    color: white;
+    font-size: 16px;
+}
+.ewm{
+    margin: 180px auto 20px;
+    text-align: center
+}
+.ewm img{
+    width: 60px;
+    height: 60px;
+}
+.ewm p{
+    font-size: 14px;
+    color: #666666;
+    font-weight: bold;
+}
+footer{
+    width: 100%;
+    text-align: center;
+}
+footer ul{
+    width: 30%;
+    margin: 0 auto 10px;
+    text-align: center;
+    height: 18px;
+    line-height: 18px;
+}
+footer ul:after{
+    clear: both;
+}
+footer ul li{
+    float: left;
+    margin: 0 15px;
+    font-size: 13px;
+    color: #999999;
+    cursor: pointer;
+    text-decoration: underline
+}
+footer p{
+    color: #999999;
+    font-size: 13px;
+}
+footer p span{
+    text-decoration: underline;
+    cursor: pointer;
+    margin-left: 15px;
+}
+footer p img{
+    vertical-align: middle
+}
